@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+p {
+    color: rgb(143, 41, 41);
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.568);
+
+    
+
+}
+
+h1{
+    color: rgb(255, 206, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 41, 41);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 206, 0);
+    font-size: 100px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 41, 41);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.568);
+
+
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 41, 41);
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.568);
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;;
+    
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 206, 0);
+    background-color: rgba(0, 0, 0, 0.363);
+    border-style: ridge;
+    padding: 10px;
+}
+
+.navbar :hover {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+body {
+    background: url("images/background3.jpg");
+    background-size: cover;
+}
+
+
+.equipment{
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.coaches {
+    display: flex;
+    min-height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.pitch {
+    display: flex;
+    min-height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    min-height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
